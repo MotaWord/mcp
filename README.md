@@ -24,16 +24,30 @@ MCP uses token-based authentication. Tokens must be included in the request head
 
 Authorization: Bearer YOUR_TOKEN_HERE
 
+yaml
+Copy
+Edit
+
 To obtain credentials, contact your MotaWord integration manager or support team.
 
 ---
 
 ## 🎯 Use Cases
 
-- Provide LLMs or middleware with real-time translation project context
-- Monitor the lifecycle of a project: from creation → translation → review → delivery
-- Enable dashboard visualizations or notification triggers based on live project data
-- Power internal tools that need to surface project status programmatically
+- Provide LLMs or middleware with real-time translation project context  
+- Monitor the lifecycle of a project: from creation → translation → review → delivery  
+- Enable dashboard visualizations or notification triggers based on live project data  
+- Power internal tools that need to surface project status programmatically  
+
+---
+
+## 🖼️ Usage Showcase (Claude AI)
+
+Below is an example of how Claude AI interacts with the MotaWord MCP to surface project details in a contextual, conversational interface:
+
+![Claude MCP Screenshot - Input](https://a.storyblok.com/f/84976/2800x2020/0ed4a39873/mcp-claude-1.png)
+
+![Claude MCP Screenshot - Response](https://a.storyblok.com/f/84976/2716x2020/7527b8374e/mcp-claude-2.png)
 
 ---
 
