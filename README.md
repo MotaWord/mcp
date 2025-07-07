@@ -37,18 +37,6 @@ To obtain credentials, contact your MotaWord integration manager or support team
 
 ---
 
-## 📦 Example Endpoints
-
-> Full API specs are internal. Below are sample purposes for endpoints under MCP.
-
-| Endpoint                     | Description                                                 |
-|-----------------------------|-------------------------------------------------------------|
-| `/mcp/projects`             | List all accessible projects with their statuses            |
-| `/mcp/project/{id}`         | Get full context (status, language pairs, deadlines, etc.)  |
-| `/mcp/project/{id}/timeline`| View timestamps of each workflow stage                      |
-
----
-
 ## 🏢 About MotaWord
 
 [MotaWord](https://www.motaword.com) is a cloud-based professional translation platform that combines collaborative human translation with scalable API-driven workflows. We support over 110 languages and serve clients across legal, financial, tech, and academic sectors.
