@@ -14,6 +14,10 @@ This protocol enables seamless monitoring of translation workflows, allowing aut
 
 https://api.motaword.com/mcp
 
+yaml
+Copy
+Edit
+
 Authentication is required for access. Please refer to internal documentation or your API key provisioning contact for credentials.
 
 ---
@@ -45,9 +49,17 @@ To obtain credentials, contact your MotaWord integration manager or support team
 
 Below is an example of how Claude AI interacts with the MotaWord MCP to surface project details in a contextual, conversational interface:
 
+**1. Input Prompt**  
 ![Claude MCP Screenshot - Input](https://a.storyblok.com/f/84976/2800x2020/0ed4a39873/mcp-claude-1.png)
 
-![Claude MCP Screenshot - Response](https://a.storyblok.com/f/84976/2716x2020/7527b8374e/mcp-claude-2.png)
+**2. Claude Processing View**  
+![Claude MCP Screenshot - Progress](https://a.storyblok.com/f/84976/2598x1946/85ebab6b39/claude2.png)
+
+**3. Claude Review Phase Example**  
+![Claude MCP Screenshot - Review Phase](https://a.storyblok.com/f/84976/2593x1936/8d105337eb/claude3.png)
+
+**4. Final Response with Project Details**  
+![Claude MCP Screenshot - Final Output](https://a.storyblok.com/f/84976/2716x2020/7527b8374e/mcp-claude-2.png)
 
 ---
 
@@ -65,5 +77,5 @@ This repository and protocol are proprietary to MotaWord. All rights reserved. N
 
 ## 📬 Contact
 
-- **Website:** [www.motaword.com](https://www.motaword.com)
+- **Website:** [www.motaword.com](https://www.motaword.com)  
 - **Support:** [info@motaword.com](mailto:info@motaword.com)
